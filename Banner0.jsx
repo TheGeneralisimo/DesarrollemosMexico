@@ -12,6 +12,7 @@ class Banner extends React.PureComponent {
     delete currentProps.dataSource;
     delete currentProps.isMobile;
     return (
+      <div {...currentProps} {...dataSource.wrapper}>
         <QueueAnim
           key="QueueAnim"
           type={['bottom', 'top']}
