@@ -9,6 +9,8 @@
         <title>Desarrollemos México A.C.</title>         
     </head>     
     <body> 
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="gfgfSvMS"></script>
         <nav class="nav"> 
             <div class="nav__container container"> 
                 <div class="nav__left"> 
@@ -49,10 +51,22 @@
                 <div class="header__img"> 
                     <picture> 
                         <source media="(max-width: 560px)" srcset="./imgs/logo.png"> 
-                        <img loading="lazy" src="./imgs/2.png" alt="Mobile Image" class="img-screen-ui"> 
+                        <img loading="lazy" src="./imgs/2.png" class="img-screen-ui"> 
                     </picture>                     
                 </div>                 
             </div>             
+            <section class="section cta prim-background"> 
+                <div class="patterns-left"></div>                 
+                <div class="patterns-right"></div>                 
+                <div class="cta__container container text-centered"> 
+                    <h2 class="section__heading"><p>Síguenos en redes sociales</p></h2> 
+                    <div class="fb-page" data-href="https://www.facebook.com/FundacionDeMAC/" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                        <blockquote cite="https://www.facebook.com/FundacionDeMAC/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/FundacionDeMAC/">Fundacion Desarrollemos México A. C.</a>
+                        </blockquote>
+                    </div>
+                </div>                 
+            </section>             
         </header>         
         <main> 
             <section class="section speed grey-background"> 
@@ -120,7 +134,7 @@
                             <h3 class="features__feature-heading">Asistencia Jurídica</h3> 
                             <p class="features__feature-text"> 
                 Aportando asesoría a la población que así lo desee en distintas áreas de derecho. </p> 
-                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a>
+                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a> 
                         </article>                         
                         <article class="features__feature text-centered" data-aos="fade-up"> 
                             <div class="features__icon"> 
@@ -135,7 +149,7 @@
                             <p class="features__feature-text"> 
                 Capacitar a la población interesada, pero especialmente a nuestros adultos mayores. Se espera 
 desarrollar una mentalidad emprendedora, que a corto plazo genere auto-empleo </p> 
-                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a>
+                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a> 
                         </article>                         
                         <article class="features__feature text-centered" data-aos="fade-up"> 
                             <div class="features__icon"> 
@@ -150,7 +164,7 @@ desarrollar una mentalidad emprendedora, que a corto plazo genere auto-empleo </
                             <p class="features__feature-text"> 
                 Concientizar a distintos sectores de la comunidad, sobre 
 perspectiva, equidad y género, así como la promoción de los valores. </p> 
-                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a>
+                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a> 
                         </article>                         
                         <article class="features__feature text-centered" data-aos="fade-up"> 
                             <div class="features__icon"> 
@@ -165,7 +179,7 @@ perspectiva, equidad y género, así como la promoción de los valores. </p>
                             <p class="features__feature-text"> 
                 Complementara el servicio 
 prestado con la evaluación de un Psicólogo </p> 
-                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a>
+                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a> 
                         </article>                         
                         <article class="features__feature text-centered" data-aos="fade-up"> 
                             <div class="features__icon"> 
@@ -181,7 +195,7 @@ prestado con la evaluación de un Psicólogo </p>
                 Mediante el desarrollo de análisis e investigación social sobre abstencionismo, con 
 encuestas, diseño y planteamiento de políticas públicas, así como de convenios de colaboración 
 con distintas instituciones del orden publico y privado, lograremos hacer llegar a la ciudadanía. </p> 
-                            <a href="#" class="features__cta with-arrow">Conoce más</a> 
+                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a> 
                         </article>                         
                         <article class="features__feature text-centered" data-aos="fade-up"> 
                             <div class="features__icon"> 
@@ -196,7 +210,7 @@ con distintas instituciones del orden publico y privado, lograremos hacer llegar
                             <p class="features__feature-text"> 
                 Nos orientamos hacia el desarrollo de proyectos con beneficio 
 social, por medio de la gestión de recursos de instituciones como SE, Fonaes, Soful, etc. </p> 
-                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a>
+                            <a href="material-apoyo.html" class="features__cta with-arrow">Conoce más</a> 
                         </article>                         
                     </section>                     
                 </div>                 
@@ -228,10 +242,10 @@ social, por medio de la gestión de recursos de instituciones como SE, Fonaes, S
                             <a href="index.html" class="footer__link">Sobre nosotros</a> 
                         </li>                         
                         <li class="footer__links-item"> 
-                            <a href="#" class="footer__link">Convenios e Instituciones</a> 
+                            <a href="convenios.html" class="footer__link">Convenios e Instituciones</a> 
                         </li>                         
                         <li class="footer__links-item"> 
-                            <a href="#" class="footer__link">Material de apoyo</a> 
+                            <a href="material-apoyo.html" class="footer__link">Material de apoyo</a> 
                         </li>                         
                     </ul>                     
                 </article>                 
@@ -239,10 +253,10 @@ social, por medio de la gestión de recursos de instituciones como SE, Fonaes, S
                     <p class="footer__links-heading">Legal</p> 
                     <ul class="footer__links-list"> 
                         <li class="footer__links-item"> 
-                            <a href="#" class="footer__link">Documentación Legal</a> 
+                            <a href="documentacion-legal.html" class="footer__link">Documentación Legal</a> 
                         </li>                         
                         <li class="footer__links-item"> 
-                            <a href="#" class="footer__link">Contraloría y Transparencia </a> 
+                            <a href="contraloria-transparencia.html" class="footer__link">Contraloría y Transparencia </a> 
                         </li>                         
                     </ul>                     
                 </article>                 
