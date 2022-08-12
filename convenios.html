@@ -11,61 +11,36 @@
     <body> 
         <div id="fb-root"></div>         
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="gfgfSvMS"></script>         
-        <nav class="nav"> 
-            <div class="nav__container container"> 
-                <div class="nav__left"> 
-                    <a href="index.html"><span class="nav__logo-name">Desarrollemos México A.C.</span> </a> 
+        <nav class="nav">
+            <div class="toggle">
+                <span class="toggler">&raquo;</span>
+            </div>
+            <div class="logo">
+                <a href="index.html"><span>Desarrollemos México A.C.</span></a> 
+                <div class="section__img"> 
+                    <picture> 
+                        <source media="(max-width : 560px)" srcset="./imgs/1-base.png"/> 
+                        <img loading="lazy" src="./imgs/1.gif"/> 
+                    </picture>                     
                 </div>                 
-                <div class="nav__right"> 
-                    <button class="nav__hamburger" aria-label="Menu"></button>                     
-                    <ul class="nav__nav-desktop"> 
-                        <div class="dropdown">
-                            <button class="dropbtn">Fundación 
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#mision">Sobre nosotros</a>
-                                <a href="convenios.html">Convenios e Instituciones</a>
-                                <a href="material-apoyo.html">Material de apoyo</a>
-                                <a href="galería.html">Galería</a>
-                            </div>
-                        </div>                         
-                        <div class="dropdown">
-                            <button class="dropbtn">Legal 
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="contraloria-transparencia.html">Transparencia</a>
-                            </div>
-                        </div>                         
-                    </ul>                     
-                </div>                 
-            </div>             
-            <div class="nav__mobile-nav"> 
-                <div class="nav__mobile-nav container"> 
-                    <ul class="nav__mobile-links"> 
-                        <div class="dropdown">
-                            <button class="dropbtn">Fundación 
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#mision">Sobre nosotros</a>
-                                <a href="convenios.html">Convenios e Instituciones</a>
-                                <a href="material-apoyo.html">Material de apoyo</a>
-                                <a href="galería.html">Galería</a>
-                            </div>
-                        </div>                         
-                        <div class="dropdown">
-                            <button class="dropbtn">Legal 
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="contraloria-transparencia.html">Transparencia</a>
-                            </div>
-                        </div>                         
-                    </ul>                     
-                </div>                 
-            </div>             
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="convenios.html">Convenios e Instituciones</a>
+                </li>
+                <li>
+                    <a href="material-apoyo.html">Material de apoyo</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a href="contraloria-transparencia.html">Contraloría y Transparencia</a>
+                </li>
+            </ul>
         </nav>         
         <header class="header"> 
             <div class="header__container container"> 
