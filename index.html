@@ -10,22 +10,19 @@
     </head>     
     <body> 
         <div id="fb-root"></div>         
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="gfgfSvMS"></script>     
-<!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="gfgfSvMS"></script>         
+        <!-- Messenger Plugin de chat Code -->         
+        <div id="fb-root"></div>         
+        <!-- Your Plugin de chat code -->         
+        <div id="fb-customer-chat" class="fb-customerchat"> 
+</div>         
+        <script>
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "243640612419142");
       chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
+    </script>         
+        <!-- Your SDK code -->         
+        <script>
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
@@ -40,13 +37,12 @@
         js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-    </script>    
-        <nav class="nav">
-            <a href="https://api.whatsapp.com/send?phone=5217714970976&text=Hola, Nececito mas informacion!" class="btn-flotante">Mandanos un Whatsapp</a>
-            <div class="toggle">
-                <span class="toggler">&raquo;</span>
-            </div>
-            <div class="logo">
+    </script>         
+        <nav class="nav"> 
+            <div class="toggle"> 
+                <span class="toggler">&raquo;</span> 
+            </div>             
+            <div class="logo"> 
                 <a href="index.html"><span>Desarrollemos México A.C.</span></a> 
                 <div class="section__img"> 
                     <picture> 
@@ -54,25 +50,25 @@
                         <img loading="lazy" src="./imgs/1.gif"/> 
                     </picture>                     
                 </div>                 
-            </div>
-            <ul>
-                <li>
-                    <a href="index.html">Sobre nosotros</a>
-                </li>
-                <li>
-                    <a href="convenios.html">Convenios e Instituciones</a>
-                </li>
-                <li>
-                    <a href="material-apoyo.html">Material de apoyo</a>
-                </li>
-                <li>
-                    <a href="galeria.html">Galería</a>
-                </li>
-                <li>
-                    <a href="contraloria-transparencia.html">Contraloría y Transparencia</a>
-                </li>
-            </ul>
-        </nav>
+            </div>             
+            <ul> 
+                <li> 
+                    <a href="index.html">Sobre nosotros</a> 
+                </li>                 
+                <li> 
+                    <a href="convenios.html">Convenios e Instituciones</a> 
+                </li>                 
+                <li> 
+                    <a href="material-apoyo.html">Material de apoyo</a> 
+                </li>                 
+                <li> 
+                    <a href="galeria.html">Galería</a> 
+                </li>                 
+                <li> 
+                    <a href="contraloria-transparencia.html">Contraloría y Transparencia</a> 
+                </li>                 
+            </ul>             
+        </nav>         
         <header class="header"> 
             <div class="header__container container"> 
                 <div class="header__text"> 
@@ -91,12 +87,12 @@
                 <div class="patterns-left"></div>                 
                 <div class="patterns-right"></div>                 
                 <div class="cta__container container text-centered"> 
-</div>
+</div>                 
                 <div class="cta__container container text-centered"> 
                     <h2 class="section__heading"><p>Síguenos en redes sociales</p></h2> 
-                    <a class="twitter-timeline" data-lang="es" data-width="350" data-height="499" data-dnt="true" href="https://twitter.com/Fundacion_DeMAC?ref_src=twsrc%5Etfw">Tweets by Fundacion_DeMAC</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <div class="fb-page" data-href="https://www.facebook.com/FundacionDeMAC/" data-tabs="timeline" data-width="350" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"> 
+                    <a class="twitter-timeline" data-lang="es" data-width="350" data-height="350" data-dnt="true" href="https://twitter.com/Fundacion_DeMAC?ref_src=twsrc%5Etfw">Tweets by Fundacion_DeMAC</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                     
+                    <div class="fb-page" data-href="https://www.facebook.com/FundacionDeMAC/" data-tabs="timeline" data-width="350" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"> 
                         <blockquote cite="https://www.facebook.com/FundacionDeMAC/" class="fb-xfbml-parse-ignore"> 
                             <a href="https://www.facebook.com/FundacionDeMAC/">Fundacion Desarrollemos México A. C.</a> 
                         </blockquote>                         
@@ -345,8 +341,5 @@ window.addEventListener("click", event => {
 });
             
     </script>         
-        <!-- Chatbot ALMA -->         
-        <script id="helper" data-idEmpresa="6040b920-142a-11ed-a59a-9f6ae1ab330c" data-idChatbot="eb764670-142a-11ed-be19-475557f806fb" data-install="1" src="https://assistant.almaintelligence.com:7777/stylesAndScripts/version2/iframe.js"></script>         
-        <!-- Fin Chatbot ALMA -->         
     </body>     
 </html>
