@@ -2,7 +2,9 @@
 
 /* General */
 *,
+
 *::after,
+
 *::before {
     margin: 0;
     padding: 0;
@@ -53,6 +55,7 @@ a:hover {
 }
 
 a.btn:hover,
+
 a.btn:focus {
     transform: translateY(-2px);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
@@ -81,15 +84,21 @@ a.btn:focus {
 }
 
 p,
+
 ul,
+
 ol,
+
 li {
     margin-bottom: 1em;
 }
 
 h1,
+
 h2,
+
 h3,
+
 h4 {
     font-weight: 900;
     line-height: 1.13;
@@ -127,14 +136,13 @@ hr {
 }
 
 .nav {
-    width: 270px;
-    height: 100vh;
+    width: 200px;
+    height: 100%;
     background-color: #262626;
-    left: -270px;
+    left: -200px;
     top: 0;
     position: fixed;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,.6);
+    padding: 2% 0;
     transition: all 200ms ease-in-out;
     z-index: 99;
 }
@@ -143,13 +151,13 @@ hr {
     position: absolute;
     left: 100%;
     background-color: #f17c41;
-    width: 25%;
-    height: 25%;
+    width: 10%;
+    height: 10%;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 100%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     cursor: default;
@@ -157,20 +165,19 @@ hr {
 
 .toggle span {
     display: block;
-    margin-top: -5px;
+    margin-top: -5%;
 }
 
 .logo {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
     color: white;
 }
 
 .logo  a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
-    text-shadow: 0 1px 3px rgba(0,0,0,.6);
+    font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -180,11 +187,11 @@ hr {
 }
 
 .nav ul li a {
-    padding: 10px 20px;
+    padding: 1% 5%;
     display: block;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 100%;
     text-decoration: none;
     transition: all 200ms ease;
 }
@@ -293,8 +300,11 @@ hr {
 }
 
 .patterns-left::after,
+
 .patterns-left::before,
+
 .patterns-right::after,
+
 .patterns-right::before {
     content: "";
     position: absolute;
@@ -307,6 +317,7 @@ hr {
 }
 
 .patterns-left,
+
 .patterns-right {
     position: absolute;
     height: 6em;
@@ -326,17 +337,20 @@ hr {
 }
 
 .patterns-right::after,
+
 .patterns-right::before {
     background: #fff;
 }
 
 .patterns-left::before,
+
 .patterns-right::before {
     background: var(--prim-color-shade1);
     transform: translateY(-50%) rotate(35deg);
 }
 
 .patterns-left::after,
+
 .patterns-right::after {
     background: var(--prim-color-shade2);
     transform: translateY(-50%) rotate(-35deg);
@@ -431,6 +445,7 @@ hr {
 }
 
 .header__text-text,
+
 .section__text {
     max-width: 400px;
 }
@@ -444,6 +459,7 @@ hr {
 
 /* Footer */
 .footer ul,
+
 .footer ol {
     list-style: none;
 }
@@ -490,11 +506,13 @@ hr {
     }
 
     .header__container,
+    
     .section__container {
         flex-direction: row;
     }
 
     .header__container > *,
+    
     .section__container > * {
         flex: 1;
     }
@@ -599,6 +617,7 @@ hr {
 
 /* Next & previous buttons */
 .prev,
+
 .next {
     cursor: pointer;
     position: absolute;
@@ -622,6 +641,7 @@ hr {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
+
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -661,6 +681,7 @@ hr {
 }
 
 .active,
+
 .demo:hover {
     opacity: 1;
 }

@@ -46,8 +46,7 @@
                 <a href="index.html"><span>Desarrollemos México A.C.</span></a> 
                 <div class="section__img"> 
                     <picture> 
-                        <source media="(max-width : 560px)" srcset="./imgs/1-base.png"/> 
-                        <img loading="lazy" src="./imgs/1.gif"/> 
+                        <source media="(max-width : 560px)" srcset="./imgs/1-base.png"/>                          
                     </picture>                     
                 </div>                 
             </div>             
@@ -325,7 +324,7 @@ social, por medio de la gestión de recursos de instituciones como SE, Fonaes, S
       }
 
 let toggler = document.querySelector(".toggler");
-
+ document.body.classList.toggle("show-nav");           
 window.addEventListener("click", event => {
   if(event.target.className == "toggler" || event.target.className == "toggle") {
     document.body.classList.toggle("show-nav");
