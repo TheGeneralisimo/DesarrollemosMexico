@@ -11,42 +11,15 @@
     <body> 
         <div id="fb-root"></div>         
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="gfgfSvMS"></script>         
-        <!-- Messenger Plugin de chat Code -->         
-        <div id="fb-root"></div>         
-        <!-- Your Plugin de chat code -->         
-        <div id="fb-customer-chat" class="fb-customerchat"> 
-</div>         
-        <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "243640612419142");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>         
-        <!-- Your SDK code -->         
-        <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>         
         <nav class="nav"> 
             <div class="toggle"> 
                 <span class="toggler">&raquo;</span> 
             </div>             
             <div class="logo"> 
-                <a href="index.html"><span>Desarrollemos México A.C.</span></a> 
+                <a><span>Desarrollemos México A.C.</span></a> 
                 <div class="section__img"> 
                     <picture> 
-                        <source media="(max-width : 560px)" srcset="./imgs/1-base.png"/>                          
+                        <source media="(max-width : 560px)" srcset="./imgs/1-base.png"/> 
                     </picture>                     
                 </div>                 
             </div>             
@@ -75,12 +48,59 @@
                     <h2 class="header__heading-text"><span class="highlighted">Impulsando tus metas</span></h2> 
                     <p class="header__text-text"> <b class="highlighted">Fundación Desarrollemos México A.C. </b>es una Institución de asistencia social, sin fin de lucro político-económico </p> 
                 </div>                 
-                <div class="header__img"> 
-                    <picture> 
-                        <source media="(max-width: 560px)" srcset="./imgs/2.png"> 
-                        <img loading="lazy" src="./imgs/2.png" class="img-screen-ui"> 
-                    </picture>                     
-                </div>                 
+                <div class="header_img"> 
+                    <div class="carousel">
+                        <ul class="slides">
+                            <input type="radio" name="radio-buttons" id="img-1" checked/>
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="imgs/1.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-3" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-2" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-2"/>
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="imgs/2-base.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-1" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-3" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-3"/>
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="imgs/objetivo.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-2" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-1" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <div class="carousel-dots">
+                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                            </div>
+                        </ul>
+                    </div>                     
+                </div>
             </div>             
             <section class="section cta prim-background"> 
                 <div class="patterns-left"></div>                 
